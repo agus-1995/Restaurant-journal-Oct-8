@@ -1,0 +1,67 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/inter';
+
+/*
+ * Design tokens — warm "scrapbook" palette.
+ * Measured contrast (WCAG AA needs 4.5:1 for normal text):
+ *   on paper: ink 14.6 · ink-soft 6.0 · terracotta 5.1 · olive 5.4 · wine 10.2
+ *   on paper-deep: ink-soft 5.4 · terracotta 4.6   on card: ink-soft 6.4 · terracotta 5.4
+ *   paper text on filled: terracotta 5.1 · terracotta-deep 7.2 · olive 5.4 · wine 10.2 · ink 14.6
+ *   ink on mustard 7.4
+ */
+@theme {
+  --font-display: 'Fraunces Variable', ui-serif, Georgia, serif;
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+
+  --color-paper: #fbf6ee;
+  --color-paper-deep: #f3eadb;
+  --color-card: #fffdf9;
+  --color-line: #e3d6c2;
+  --color-ink: #2b211c;
+  --color-ink-soft: #6b5b50;
+  --color-terracotta: #b4452b;
+  --color-terracotta-deep: #8f3520;
+  --color-olive: #5c6b3a;
+  --color-wine: #6e1f3a;
+  --color-mustard: #e0a93b;
+
+  --radius-card: 1rem;
+  --shadow-polaroid: 0 1px 2px rgb(43 33 28 / 0.08), 0 6px 16px -4px rgb(43 33 28 / 0.18);
+  --shadow-fab: 0 4px 6px -1px rgb(43 33 28 / 0.2), 0 10px 24px -6px rgb(180 69 43 / 0.5);
+}
+
+@layer base {
+  html {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    min-height: 100dvh;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  [aria-invalid='true'] {
+    border-color: var(--color-wine);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-wine);
+    outline-offset: 2px;
+    border-radius: 0.25rem;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

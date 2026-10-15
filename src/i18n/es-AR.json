@@ -1,0 +1,350 @@
+{
+  "app": {
+    "name": "Mi Diario",
+    "tagline": "Tus comidas, tus lugares, tus recuerdos."
+  },
+  "a11y": {
+    "skipToContent": "Saltar al contenido",
+    "loading": "Cargando…"
+  },
+  "nav": {
+    "main": "Navegación principal",
+    "journal": "Diario",
+    "search": "Buscar",
+    "share": "Compartir",
+    "wishlist": "Quiero probar"
+  },
+  "actions": {
+    "log": "Anotar",
+    "logAria": "Anotar una nueva comida",
+    "tryAgain": "Reintentar",
+    "backToJournal": "Volver al diario",
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "cancel": "Cancelar",
+    "delete": "Borrar",
+    "edit": "Editar",
+    "share": "Compartir",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "add": "Agregar",
+    "close": "Cerrar",
+    "clearFilters": "Limpiar filtros"
+  },
+  "language": {
+    "label": "Idioma",
+    "names": {
+      "es-AR": "Español",
+      "en": "English"
+    }
+  },
+  "reaction": {
+    "label": "¿Cómo estuvo?",
+    "loved": "Me encantó",
+    "good": "Estuvo bien",
+    "meh": "Meh"
+  },
+  "occasion": {
+    "label": "¿Con quién fuiste?",
+    "solo": "Solo/a",
+    "friends": "Con amigos",
+    "date": "Cita",
+    "family": "Familia",
+    "work": "Trabajo"
+  },
+  "placeType": {
+    "label": "Tipo de lugar",
+    "restaurant": "Restaurante",
+    "winery": "Bodega",
+    "cafe": "Café",
+    "street_food": "Comida al paso",
+    "bar": "Bar",
+    "other": "Otro"
+  },
+  "placeStatus": {
+    "open": "Abierto",
+    "closed": "Cerrado",
+    "unknown": "Sin confirmar"
+  },
+  "price": {
+    "label": "Precio",
+    "none": "Sin precio",
+    "1": "Económico",
+    "2": "Medio",
+    "3": "Caro"
+  },
+  "validation": {
+    "placeRequired": "Elegí un lugar o creá uno nuevo.",
+    "nameRequired": "Poné el nombre del lugar.",
+    "cityRequired": "Poné la ciudad.",
+    "reactionRequired": "Contanos cómo estuvo.",
+    "dateInvalid": "Esa fecha no es válida.",
+    "tooLong": "Es demasiado largo.",
+    "emailRequired": "Poné tu email.",
+    "emailInvalid": "Ese email no parece válido.",
+    "passwordRequired": "Poné tu contraseña.",
+    "passwordTooShort": "Tiene que tener al menos 8 caracteres.",
+    "passwordsDontMatch": "Las contraseñas no coinciden."
+  },
+  "state": {
+    "errorTitle": "No pudimos cargar esto"
+  },
+  "errors": {
+    "generic": {
+      "title": "Algo salió mal",
+      "body": "No pudimos mostrar esta pantalla. Probá de nuevo en un momento."
+    },
+    "notFound": {
+      "title": "No encontramos esa página",
+      "body": "Puede que el link esté roto o que la entrada ya no exista."
+    },
+    "repository": {
+      "not_found": "No encontramos lo que buscabas. Puede que ya se haya borrado.",
+      "conflict": "Eso todavía se está usando en otro lado.",
+      "invalid": "Hay datos que no son válidos. Revisalos y probá de nuevo.",
+      "quota_exceeded": "Se llenó el espacio del navegador. Borrá alguna entrada con fotos o usá fotos más livianas.",
+      "unavailable": "No pudimos conectarnos. Probá de nuevo en un momento.",
+      "unauthorized": "No pudimos iniciar tu sesión. Recargá la página; si sigue igual, avisanos.",
+      "unknown": "Pasó algo inesperado. Probá de nuevo.",
+      "invalid_credentials": "El email o la contraseña no son correctos.",
+      "email_not_confirmed": "Todavía no confirmaste tu email. Revisá tu bandeja de entrada (y el spam).",
+      "email_taken": "Ya hay una cuenta con ese email. Probá iniciar sesión.",
+      "weak_password": "Esa contraseña es muy débil. Probá con una más larga o más difícil.",
+      "rate_limited": "Hiciste muchos intentos seguidos. Esperá unos minutos y probá de nuevo."
+    }
+  },
+  "journal": {
+    "title": "Tu diario",
+    "subtitle": "Agregá las comidas que más te han gustado",
+    "count_one": "{{count}} comida anotada",
+    "count_other": "{{count}} comidas anotadas",
+    "empty": {
+      "title": "Tu diario está esperando su primera comida",
+      "body": "Sacale una foto a eso rico, elegí cómo estuvo y listo: en menos de 30 segundos queda guardado.",
+      "cta": "Anotar mi primera comida",
+      "tip1": "Anotá bodegones, bodegas y puestos de la calle.",
+      "tip2": "Marcá los hallazgos inusuales para encontrarlos después.",
+      "tip3": "Compartí tus favoritos con quien más querés."
+    }
+  },
+  "entry": {
+    "photoAlt": "Foto de {{place}}",
+    "photoAltDish": "{{dish}} en {{place}}",
+    "noPhoto": "Sin foto",
+    "photoCount": "Foto {{current}} de {{total}}",
+    "photos": "Fotos de la comida",
+    "dishes": "Platos",
+    "notes": "Notas",
+    "cuisine": "Cocina",
+    "unusual": "Hallazgo inusual",
+    "placeClosed": "Este lugar cerró",
+    "noDetails": "Todavía no agregaste platos ni notas.",
+    "addDetails": "Agregar detalles",
+    "back": "Volver al diario",
+    "searchTag": "Buscar más de {{tag}}",
+    "notFound": {
+      "title": "No encontramos esta entrada",
+      "body": "Puede que se haya borrado."
+    },
+    "deleteTitle": "¿Borrar esta entrada?",
+    "deleteBody": "Vas a borrar tu visita a {{place}} del {{date}}. No se puede deshacer.",
+    "deleteConfirm": "Sí, borrar",
+    "deleteFailed": "No pudimos borrar la entrada.",
+    "celebrate": {
+      "title": "¡Tu diario ya empezó!",
+      "body": "Guardaste tu primera comida. Cada una que sumes la vas a poder encontrar después.",
+      "dismiss": "Entendido"
+    },
+    "edit": {
+      "title": "Editar entrada",
+      "placeLocked": "Lugar: {{place}}",
+      "saveFailed": "No pudimos guardar los cambios."
+    }
+  },
+  "form": {
+    "date": "Fecha",
+    "photos": "Fotos",
+    "addPhoto": "Agregar foto",
+    "addMorePhotos": "Agregar otra foto",
+    "removePhoto": "Quitar foto {{n}}",
+    "photoPreview": "Foto {{n}} elegida",
+    "uploading": "Procesando foto…",
+    "photoHint": "Hasta {{max}} fotos.",
+    "dishes": "¿Qué comiste?",
+    "dishesPlaceholder": "Ej: Milanesa napolitana",
+    "dishesHint": "Escribí un plato y tocá Agregar.",
+    "addDish": "Agregar plato",
+    "removeTag": "Quitar {{tag}}",
+    "unusual": "Hallazgo inusual",
+    "unusualHelp": "Marcalo si no es la comida de siempre.",
+    "cuisine": "Tipo de cocina",
+    "cuisinePlaceholder": "Ej: parrilla, vegetariana",
+    "cuisineHint": "Escribí una y tocá Agregar.",
+    "addCuisine": "Agregar tipo de cocina",
+    "notes": "Notas",
+    "notesPlaceholder": "Lo que quieras recordar…"
+  },
+  "placePicker": {
+    "label": "¿Dónde comiste?",
+    "placeholder": "Buscá o escribí el nombre del lugar",
+    "recent": "Lugares recientes",
+    "matches": "Coincidencias",
+    "create": "Crear “{{name}}”",
+    "chosen": "Lugar elegido",
+    "change": "Cambiar",
+    "newPlace": "Lugar nuevo",
+    "name": "Nombre",
+    "city": "Ciudad",
+    "neighborhood": "Barrio (opcional)",
+    "neighborhoodPlaceholder": "Ej: Palermo"
+  },
+  "log": {
+    "title": "Anotar una comida",
+    "close": "Cerrar y volver al diario",
+    "stepOf": "Paso {{current}} de {{total}}",
+    "steps": {
+      "place": "Dónde",
+      "dish": "Qué y cómo",
+      "extras": "Extras"
+    },
+    "step1": "Lugar y foto",
+    "step2": "Plato, precio y reacción",
+    "step3": "Algo más para recordar",
+    "optional": "Opcional",
+    "saveNow": "Guardar ahora",
+    "saveEntry": "Guardar entrada",
+    "draftRestored": "Retomamos tu borrador.",
+    "startOver": "Empezar de nuevo",
+    "fromWishlist": "Desde “Quiero probar”: {{place}}",
+    "saveFailed": "No pudimos guardar la entrada. Tu borrador sigue acá."
+  },
+  "search": {
+    "title": "Buscar",
+    "queryLabel": "Buscar en tu diario",
+    "queryPlaceholder": "Lugar, plato, barrio…",
+    "filters": "Filtros",
+    "filtersCount": "Filtros ({{count}})",
+    "neighborhood": "Barrio",
+    "anyNeighborhood": "Todos los barrios",
+    "unusualOnly": "Solo hallazgos inusuales",
+    "cuisine": "Cocina",
+    "results_one": "{{count}} resultado",
+    "results_other": "{{count}} resultados",
+    "noResults": {
+      "title": "No hay coincidencias",
+      "body": "Probá con otras palabras o sacá algún filtro."
+    },
+    "noEntries": {
+      "title": "Todavía no hay nada para buscar",
+      "body": "Anotá tu primera comida y después la vas a encontrar acá.",
+      "cta": "Anotar una comida"
+    }
+  },
+  "wishlist": {
+    "title": "Quiero probar",
+    "addTitle": "Sumar un lugar",
+    "note": "Nota (opcional)",
+    "notePlaceholder": "Ej: dicen que el bife es increíble",
+    "source": "¿Quién te lo recomendó? (opcional)",
+    "sourcePlaceholder": "Ej: Cami, Instagram",
+    "add": "Agregar a la lista",
+    "addFailed": "No pudimos agregar el lugar.",
+    "addedOn": "Agregado el {{date}}",
+    "from": "Recomendado por {{source}}",
+    "remove": "Quitar",
+    "removeAria": "Quitar {{place}} de la lista",
+    "logIt": "Ya fui",
+    "logItAria": "Ya fui a {{place}}: anotar mi visita",
+    "count_one": "{{count}} lugar para probar",
+    "count_other": "{{count}} lugares para probar",
+    "empty": {
+      "title": "Tu lista está vacía",
+      "body": "Guardá acá los lugares que te recomendaron o que viste y querés visitar."
+    }
+  },
+  "share": {
+    "button": "Compartir",
+    "title": "Compartir esta entrada",
+    "generating": "Armando tu tarjeta…",
+    "previewAlt": "Vista previa de la tarjeta para compartir de {{place}}",
+    "error": "No pudimos armar la tarjeta.",
+    "native": "Compartir…",
+    "download": "Descargar imagen",
+    "downloaded": "Imagen descargada.",
+    "copyLink": "Copiar link",
+    "linkCopied": "Link copiado.",
+    "linkCopyFailed": "No pudimos copiar el link.",
+    "linkNote": "Por ahora el link solo abre la entrada en este dispositivo. Para mandarla a otra persona, compartí la imagen.",
+    "shareText": "{{place}}, en Mi Diario",
+    "cardDishes": "Probé",
+    "cardFooter": "Mi Diario"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Contraseña",
+    "newPassword": "Contraseña nueva",
+    "confirmPassword": "Repetí la contraseña",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "showPassword": "Mostrar contraseña",
+    "hidePassword": "Ocultar contraseña",
+    "passwordHint": "Mínimo 8 caracteres.",
+    "login": {
+      "title": "Iniciá sesión",
+      "subtitle": "Tu diario te estaba esperando.",
+      "submit": "Entrar",
+      "submitting": "Entrando…",
+      "forgot": "Me olvidé la contraseña",
+      "noAccount": "¿Todavía no tenés cuenta?",
+      "toSignup": "Crear una cuenta"
+    },
+    "signup": {
+      "title": "Creá tu cuenta",
+      "subtitle": "Guardá tus comidas y encontralas desde cualquier dispositivo.",
+      "submit": "Crear cuenta",
+      "submitting": "Creando…",
+      "haveAccount": "¿Ya tenés cuenta?",
+      "toLogin": "Iniciar sesión"
+    },
+    "confirm": {
+      "title": "Revisá tu email",
+      "body": "Te mandamos un link a {{email}} para confirmar tu cuenta. Después volvé y entrá con tu email y contraseña.",
+      "toLogin": "Ir a iniciar sesión"
+    },
+    "forgot": {
+      "title": "Recuperá tu contraseña",
+      "subtitle": "Poné tu email y te mandamos un link para elegir una nueva.",
+      "submit": "Mandar el link",
+      "submitting": "Mandando…",
+      "sentTitle": "Listo, revisá tu email",
+      "sentBody": "Si hay una cuenta con ese email, te mandamos un link para elegir una contraseña nueva.",
+      "back": "Volver a iniciar sesión"
+    },
+    "reset": {
+      "title": "Elegí una contraseña nueva",
+      "submit": "Guardar contraseña",
+      "submitting": "Guardando…",
+      "invalidTitle": "Este link ya no sirve",
+      "invalidBody": "Puede haber vencido o ya haberse usado. Pedí uno nuevo.",
+      "requestNew": "Pedir un link nuevo"
+    },
+    "account": {
+      "button": "Cuenta",
+      "title": "Tu cuenta",
+      "signedInAs": "Sesión iniciada como",
+      "signOut": "Cerrar sesión",
+      "signingOut": "Cerrando…"
+    }
+  },
+  "sharePage": {
+    "title": "Compartir",
+    "subtitle": "Elegí una entrada y compartila como imagen.",
+    "button": "Compartir",
+    "shareAria": "Compartir {{place}} del {{date}}",
+    "empty": {
+      "title": "Todavía no hay nada para compartir",
+      "body": "Anotá tu primera comida y después la vas a poder compartir.",
+      "cta": "Anotar una comida"
+    }
+  }
+}

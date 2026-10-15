@@ -1,0 +1,350 @@
+{
+  "app": {
+    "name": "Mi Diario",
+    "tagline": "Your meals, your places, your memories."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "main": "Main navigation",
+    "journal": "Journal",
+    "search": "Search",
+    "share": "Share",
+    "wishlist": "Want to try"
+  },
+  "actions": {
+    "log": "Log",
+    "logAria": "Log a new meal",
+    "tryAgain": "Try again",
+    "backToJournal": "Back to journal",
+    "save": "Save",
+    "saving": "Saving…",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "share": "Share",
+    "next": "Next",
+    "back": "Back",
+    "add": "Add",
+    "close": "Close",
+    "clearFilters": "Clear filters"
+  },
+  "language": {
+    "label": "Language",
+    "names": {
+      "es-AR": "Español",
+      "en": "English"
+    }
+  },
+  "reaction": {
+    "label": "How was it?",
+    "loved": "Loved it",
+    "good": "Good",
+    "meh": "Meh"
+  },
+  "occasion": {
+    "label": "Who were you with?",
+    "solo": "Solo",
+    "friends": "With friends",
+    "date": "Date",
+    "family": "Family",
+    "work": "Work"
+  },
+  "placeType": {
+    "label": "Type of place",
+    "restaurant": "Restaurant",
+    "winery": "Winery",
+    "cafe": "Café",
+    "street_food": "Street food",
+    "bar": "Bar",
+    "other": "Other"
+  },
+  "placeStatus": {
+    "open": "Open",
+    "closed": "Closed",
+    "unknown": "Unconfirmed"
+  },
+  "price": {
+    "label": "Price",
+    "none": "No price",
+    "1": "Budget",
+    "2": "Mid-range",
+    "3": "Pricey"
+  },
+  "validation": {
+    "placeRequired": "Pick a place or create a new one.",
+    "nameRequired": "Enter the place's name.",
+    "cityRequired": "Enter the city.",
+    "reactionRequired": "Tell us how it was.",
+    "dateInvalid": "That date isn't valid.",
+    "tooLong": "That's too long.",
+    "emailRequired": "Enter your email.",
+    "emailInvalid": "That email doesn't look valid.",
+    "passwordRequired": "Enter your password.",
+    "passwordTooShort": "It must be at least 8 characters.",
+    "passwordsDontMatch": "The passwords don't match."
+  },
+  "state": {
+    "errorTitle": "We couldn't load this"
+  },
+  "errors": {
+    "generic": {
+      "title": "Something went wrong",
+      "body": "We couldn't show this screen. Please try again in a moment."
+    },
+    "notFound": {
+      "title": "We couldn't find that page",
+      "body": "The link may be broken, or the entry may no longer exist."
+    },
+    "repository": {
+      "not_found": "We couldn't find what you were looking for. It may have been deleted.",
+      "conflict": "That is still being used somewhere else.",
+      "invalid": "Some of the data isn't valid. Check it and try again.",
+      "quota_exceeded": "Your browser storage is full. Delete an entry with photos or use smaller photos.",
+      "unavailable": "We couldn't connect. Please try again in a moment.",
+      "unauthorized": "We couldn't start your session. Reload the page; if it keeps happening, let us know.",
+      "unknown": "Something unexpected happened. Please try again.",
+      "invalid_credentials": "The email or password is incorrect.",
+      "email_not_confirmed": "You haven't confirmed your email yet. Check your inbox (and spam).",
+      "email_taken": "There's already an account with that email. Try signing in.",
+      "weak_password": "That password is too weak. Try a longer or harder one.",
+      "rate_limited": "Too many attempts in a row. Wait a few minutes and try again."
+    }
+  },
+  "journal": {
+    "title": "Your journal",
+    "subtitle": "Add the meals you've liked the most",
+    "count_one": "{{count}} meal logged",
+    "count_other": "{{count}} meals logged",
+    "empty": {
+      "title": "Your journal is waiting for its first meal",
+      "body": "Snap that delicious thing, pick how it was, and done: it's saved in under 30 seconds.",
+      "cta": "Log my first meal",
+      "tip1": "Log bodegones, wineries and street stalls.",
+      "tip2": "Flag unusual finds so you can find them later.",
+      "tip3": "Share your favorites with the people you love."
+    }
+  },
+  "entry": {
+    "photoAlt": "Photo from {{place}}",
+    "photoAltDish": "{{dish}} at {{place}}",
+    "noPhoto": "No photo",
+    "photoCount": "Photo {{current}} of {{total}}",
+    "photos": "Photos of the meal",
+    "dishes": "Dishes",
+    "notes": "Notes",
+    "cuisine": "Cuisine",
+    "unusual": "Unusual find",
+    "placeClosed": "This place has closed",
+    "noDetails": "You haven't added dishes or notes yet.",
+    "addDetails": "Add details",
+    "back": "Back to journal",
+    "searchTag": "Find more {{tag}}",
+    "notFound": {
+      "title": "We couldn't find this entry",
+      "body": "It may have been deleted."
+    },
+    "deleteTitle": "Delete this entry?",
+    "deleteBody": "You're about to delete your visit to {{place}} on {{date}}. This can't be undone.",
+    "deleteConfirm": "Yes, delete",
+    "deleteFailed": "We couldn't delete the entry.",
+    "celebrate": {
+      "title": "Your journal has begun!",
+      "body": "You saved your first meal. Every one you add will be easy to find later.",
+      "dismiss": "Got it"
+    },
+    "edit": {
+      "title": "Edit entry",
+      "placeLocked": "Place: {{place}}",
+      "saveFailed": "We couldn't save your changes."
+    }
+  },
+  "form": {
+    "date": "Date",
+    "photos": "Photos",
+    "addPhoto": "Add photo",
+    "addMorePhotos": "Add another photo",
+    "removePhoto": "Remove photo {{n}}",
+    "photoPreview": "Chosen photo {{n}}",
+    "uploading": "Processing photo…",
+    "photoHint": "Up to {{max}} photos.",
+    "dishes": "What did you eat?",
+    "dishesPlaceholder": "E.g. Milanesa napolitana",
+    "dishesHint": "Type a dish and tap Add.",
+    "addDish": "Add dish",
+    "removeTag": "Remove {{tag}}",
+    "unusual": "Unusual find",
+    "unusualHelp": "Flag it if it's not your usual meal.",
+    "cuisine": "Type of cuisine",
+    "cuisinePlaceholder": "E.g. grill, vegetarian",
+    "cuisineHint": "Type one and tap Add.",
+    "addCuisine": "Add cuisine",
+    "notes": "Notes",
+    "notesPlaceholder": "Anything you want to remember…"
+  },
+  "placePicker": {
+    "label": "Where did you eat?",
+    "placeholder": "Search or type the place's name",
+    "recent": "Recent places",
+    "matches": "Matches",
+    "create": "Create “{{name}}”",
+    "chosen": "Chosen place",
+    "change": "Change",
+    "newPlace": "New place",
+    "name": "Name",
+    "city": "City",
+    "neighborhood": "Neighborhood (optional)",
+    "neighborhoodPlaceholder": "E.g. Palermo"
+  },
+  "log": {
+    "title": "Log a meal",
+    "close": "Close and go back to the journal",
+    "stepOf": "Step {{current}} of {{total}}",
+    "steps": {
+      "place": "Where",
+      "dish": "What & how",
+      "extras": "Extras"
+    },
+    "step1": "Place and photo",
+    "step2": "Dish, price and reaction",
+    "step3": "Anything else to remember",
+    "optional": "Optional",
+    "saveNow": "Save now",
+    "saveEntry": "Save entry",
+    "draftRestored": "We picked up your draft.",
+    "startOver": "Start over",
+    "fromWishlist": "From “Want to try”: {{place}}",
+    "saveFailed": "We couldn't save the entry. Your draft is still here."
+  },
+  "search": {
+    "title": "Search",
+    "queryLabel": "Search your journal",
+    "queryPlaceholder": "Place, dish, neighborhood…",
+    "filters": "Filters",
+    "filtersCount": "Filters ({{count}})",
+    "neighborhood": "Neighborhood",
+    "anyNeighborhood": "All neighborhoods",
+    "unusualOnly": "Unusual finds only",
+    "cuisine": "Cuisine",
+    "results_one": "{{count}} result",
+    "results_other": "{{count}} results",
+    "noResults": {
+      "title": "No matches",
+      "body": "Try different words or remove a filter."
+    },
+    "noEntries": {
+      "title": "Nothing to search yet",
+      "body": "Log your first meal and you'll find it here.",
+      "cta": "Log a meal"
+    }
+  },
+  "wishlist": {
+    "title": "Want to try",
+    "addTitle": "Add a place",
+    "note": "Note (optional)",
+    "notePlaceholder": "E.g. they say the steak is amazing",
+    "source": "Who recommended it? (optional)",
+    "sourcePlaceholder": "E.g. Cami, Instagram",
+    "add": "Add to list",
+    "addFailed": "We couldn't add the place.",
+    "addedOn": "Added on {{date}}",
+    "from": "Recommended by {{source}}",
+    "remove": "Remove",
+    "removeAria": "Remove {{place}} from the list",
+    "logIt": "I went",
+    "logItAria": "I went to {{place}}: log my visit",
+    "count_one": "{{count}} place to try",
+    "count_other": "{{count}} places to try",
+    "empty": {
+      "title": "Your list is empty",
+      "body": "Save places here that people recommended or that you spotted and want to visit."
+    }
+  },
+  "share": {
+    "button": "Share",
+    "title": "Share this entry",
+    "generating": "Building your card…",
+    "previewAlt": "Preview of the share card for {{place}}",
+    "error": "We couldn't build the card.",
+    "native": "Share…",
+    "download": "Download image",
+    "downloaded": "Image downloaded.",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied.",
+    "linkCopyFailed": "We couldn't copy the link.",
+    "linkNote": "For now the link only opens the entry on this device. To send it to someone else, share the image.",
+    "shareText": "{{place}}, on Mi Diario",
+    "cardDishes": "I tried",
+    "cardFooter": "Mi Diario"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "newPassword": "New password",
+    "confirmPassword": "Repeat the password",
+    "show": "Show",
+    "hide": "Hide",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "passwordHint": "At least 8 characters.",
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Your journal has been waiting.",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "forgot": "I forgot my password",
+      "noAccount": "Don't have an account yet?",
+      "toSignup": "Create an account"
+    },
+    "signup": {
+      "title": "Create your account",
+      "subtitle": "Keep your meals and find them from any device.",
+      "submit": "Create account",
+      "submitting": "Creating…",
+      "haveAccount": "Already have an account?",
+      "toLogin": "Sign in"
+    },
+    "confirm": {
+      "title": "Check your email",
+      "body": "We sent a link to {{email}} to confirm your account. Then come back and sign in with your email and password.",
+      "toLogin": "Go to sign in"
+    },
+    "forgot": {
+      "title": "Recover your password",
+      "subtitle": "Enter your email and we'll send you a link to choose a new one.",
+      "submit": "Send the link",
+      "submitting": "Sending…",
+      "sentTitle": "Done, check your email",
+      "sentBody": "If there's an account with that email, we sent you a link to choose a new password.",
+      "back": "Back to sign in"
+    },
+    "reset": {
+      "title": "Choose a new password",
+      "submit": "Save password",
+      "submitting": "Saving…",
+      "invalidTitle": "This link no longer works",
+      "invalidBody": "It may have expired or already been used. Request a new one.",
+      "requestNew": "Request a new link"
+    },
+    "account": {
+      "button": "Account",
+      "title": "Your account",
+      "signedInAs": "Signed in as",
+      "signOut": "Sign out",
+      "signingOut": "Signing out…"
+    }
+  },
+  "sharePage": {
+    "title": "Share",
+    "subtitle": "Pick an entry and share it as an image.",
+    "button": "Share",
+    "shareAria": "Share {{place}} from {{date}}",
+    "empty": {
+      "title": "Nothing to share yet",
+      "body": "Log your first meal and you'll be able to share it.",
+      "cta": "Log a meal"
+    }
+  }
+}
